@@ -1,0 +1,29 @@
+.profile-following-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.profile-following-wraper:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+.following-img{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .profile-following-wraper{
+        padding: 7px 7px;
+    }
+    .following-img{
+        height: 45px;
+        width: 45px;
+        margin-right: 15px;
+    }
+}

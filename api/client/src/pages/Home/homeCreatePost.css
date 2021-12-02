@@ -1,0 +1,110 @@
+.home-create-post-container{
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    transition: 300ms;
+
+}
+.home-create-post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.home-create-post-profile-add-btn{
+    display: flex;
+    align-items: center;
+}
+.home-create-post-profilePic{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.home-add-photo-icon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    filter: invert(100%);
+    background-color: rgb(194, 107, 0);
+    cursor: pointer;
+    
+}
+.post-update-btn{
+    border: none;
+    margin-right: 15px;
+    padding: 10px;
+    background-color:rgb(238, 238, 238);
+    border-radius: 15px;
+    color: rgb(46, 161, 255);
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.post-update-btn:hover{
+    background-color:rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
+}
+.cancel-update-btn{
+    border: none;
+    padding: 10px;
+    color: rgb(104, 104, 104);
+    background-color:rgb(238, 238, 238);
+    border-radius: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+.cancel-update-btn:hover{
+    background-color:rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+}
+.home-write-caption-input{
+    background-color: rgb(25, 25, 25);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: calc(100% - 50px);
+    font-size: 18px;
+    resize: none;
+}
+.home-write-caption-input:focus{
+    outline: none;
+}
+
+.home-article-photo-chosen{
+    width: 100%;
+}
+
+
+
+/*MEDIA*/
+@media screen and (max-width: 700px){
+    .home-create-post-container{
+        border-radius: 0;
+        box-shadow: 0px 1px 2px 0px rgba(0,0,0,0);
+    }
+    .home-create-post-header{
+        padding: 10px;
+    }
+    .home-create-post-profilePic{
+        height: 40px;
+        width: 40px;
+    }
+    .home-write-caption-input{
+        margin: 10px;
+        padding: 7px;
+        font-size: 16px;
+    }
+}

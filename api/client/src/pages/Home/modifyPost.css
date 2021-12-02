@@ -1,0 +1,22 @@
+.modify-article-description{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.modify-caption-input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+.modify-caption-input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 600px){
+
+    .modify-caption-input{
+        border: none;
+        font-size: 14px;
+        width: 100%;
+    }
+}

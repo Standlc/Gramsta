@@ -1,0 +1,20 @@
+.result-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.result-container:hover{
+    background-color: rgb(245, 245, 245);
+}
+.result-profile-picture{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.result-username{
+    margin-left: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

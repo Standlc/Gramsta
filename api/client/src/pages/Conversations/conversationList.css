@@ -1,0 +1,52 @@
+.result-followings-profile-picture{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    margin-right: 15px;
+}
+.results-followings-conversations{
+    overflow: hidden; 
+}
+.result-followings-search{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+
+}
+
+.result-followings-search:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+
+.result-followings-username{
+font-size: 17px;
+font-weight: 600;
+}
+.last-message-conversation{
+    color: gray;
+    font-size: 13px;
+}
+
+
+
+.result-followings-search.clicked{
+    background-color: rgb(79, 155, 255);
+}
+.result-followings-search.clicked .result-followings-username{
+    color: white;
+}
+.result-followings-search.clicked .last-message-conversation{
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 700px){
+    .last-message-conversation{
+        font-size: 12px;
+    }
+
+}

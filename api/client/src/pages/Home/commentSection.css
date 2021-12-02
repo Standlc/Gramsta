@@ -1,0 +1,69 @@
+.comment-attribute{
+    color: gray ;
+}
+.comment-section{
+    display: flex;
+    align-items: flex-start;
+    padding: 7px 10px;
+    background-color: rgb(15, 15, 15);
+
+    
+}
+.comment-profile-picture{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.comment-menu-btn{
+    filter: invert(50%);
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.comment-content{
+    font-size: 16px;
+    background-color: rgb(25, 25, 25);
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: auto;
+    color: white;
+
+}
+
+
+
+/*SETTINGS FOR COMMENTS*/
+
+.comment-settings-container{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+    margin-left: 10px;
+    display: flex;
+    padding: 5px;
+    padding-right: 0;
+    border-radius: 10px;
+
+}
+.comment-setting{
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.comment-setting:hover{
+    background-color: rgb(235, 235, 235);
+
+}
+
+
+@media screen and (max-width: 700px){
+    .comment-content{
+        font-size: 14px;
+    }
+    
+
+}

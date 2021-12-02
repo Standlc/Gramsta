@@ -1,0 +1,50 @@
+.settings-container{
+    display: flex;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.2);
+
+}
+.settings-container-left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+    width: 120px;
+    outline: solid rgb(240, 240, 240);
+}
+.setting-name{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.highlighted{
+    color: black;
+}
+.not-selected{
+    color: grey;
+}
+.setting-user-info{
+    display: flex;
+    align-items: center;
+}
+.setting-profile-picture{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px;
+    margin-top: 0;
+}
+
+
+
+.settings-container-right{
+    padding: 30px;
+}
+.setting{
+    margin: 10px 0;
+}

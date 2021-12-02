@@ -1,0 +1,28 @@
+
+.small-screen-interaction-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+.small-screen-comments-container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-height: none;
+}
+.small-screen{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    height: calc(100% - 120px);
+    overflow: auto;
+}
+.sm-back-arrow-post{
+    height: 20px;
+    transform: rotate(90deg);
+    margin-right: 10px;
+}

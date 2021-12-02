@@ -1,0 +1,22 @@
+.new-conversation-span{
+    color: rgb(105, 165, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.search-conversation-plus-btn{
+    background-color: rgb(150, 90, 0) ;
+    width: 13px;
+    padding: 5px;
+    border-radius: 50%;
+    height: 13px;
+    filter: invert(100%);
+}
+.chat-result-profile-picture{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
